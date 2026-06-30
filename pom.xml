@@ -104,6 +104,13 @@
             <version>4.38.0</version>
         </dependency>
 
+        <!-- Kryo Serialization -->
+        <dependency>
+            <groupId>com.esotericsoftware</groupId>
+            <artifactId>kryo</artifactId>
+            <version>5.6.2</version>
+        </dependency>
+
         <!-- 显式覆盖旧版 credentials-java，解决 NoSuchMethodError -->
         <dependency>
             <groupId>com.aliyun</groupId>
