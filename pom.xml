@@ -97,6 +97,12 @@
             <version>1.1.2.0</version>
         </dependency>
 
+        <!-- JSON Schema Generator -->
+        <dependency>
+            <groupId>com.github.victools</groupId>
+            <artifactId>jsonschema-generator</artifactId>
+            <version>4.38.0</version>
+        </dependency>
 
         <!-- 显式覆盖旧版 credentials-java，解决 NoSuchMethodError -->
         <dependency>
