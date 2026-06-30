@@ -1,4 +1,4 @@
-package com.yupi.yuaiagent.advisor;
+package org.yupi.yuagent.advisor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClientMessageAggregator;
@@ -31,6 +31,7 @@ public class MyLoggerAdvisor implements CallAdvisor, StreamAdvisor {
         log.info("AI Request: {}", request.prompt());
         return request;
     }
+
 
     private void observeAfter(ChatClientResponse chatClientResponse) {
         log.info("AI Response: {}", chatClientResponse.chatResponse().getResult().getOutput().getText());

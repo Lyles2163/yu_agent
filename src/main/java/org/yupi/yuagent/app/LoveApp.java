@@ -1,6 +1,6 @@
 package org.yupi.yuagent.app;
 
-import com.yupi.yuaiagent.advisor.MyLoggerAdvisor;
+import org.yupi.yuagent.advisor.MyLoggerAdvisor;
 
 
 import jakarta.annotation.Resource;
@@ -27,7 +27,7 @@ public class LoveApp {
 
     private final ChatClient chatClient;
 
-    private static final String SYSTEM_PROMPT = "扮演深耕恋爱心理领域的专家。";
+    private static final String SYSTEM_PROMPT = "百科全书。";
 
 //    private static final String SYSTEM_PROMPT = "扮演深耕恋爱心理领域的专家。开场向用户表明身份，告知用户可倾诉恋爱难题。" +
 //            "围绕单身、恋爱、已婚三种状态提问：单身状态询问社交圈拓展及追求心仪对象的困扰；" +
