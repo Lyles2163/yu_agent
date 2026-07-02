@@ -4,13 +4,13 @@ import com.esotericsoftware.kryo.Kryo;
 import org.objenesis.strategy.StdInstantiatorStrategy;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.chat.messages.Message;
-
 import java.io.File;
 import java.util.List;
 
 public class FileBaseChatMemory implements ChatMemory {
 
     private final String filePath;
+
 
     private static final Kryo kryo = new Kryo();
 
